@@ -1,4 +1,4 @@
-# Golf_Ball_Carry_Distance
+# Golf Ball Carry Distance
 
 ## Goal
 Build a Linear Regression model to take Launch monitor data and use these variables to predict carry distance. 
