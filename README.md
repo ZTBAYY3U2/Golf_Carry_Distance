@@ -73,7 +73,7 @@ The coefficients also indicated the following.
 Overall, the model shows that increasing ball speed, launch angle and Hangtime would mean the ball travels a further distance. Breaking this down further, it could be argued that hangtime is a product of ball speed and Launch angle, so increasing these alone could result in further carry distances. Should the project be repeated and observations increased, strike quality could also be introduced as an additional variable. 
 The model overall performed well. Comparing the average from the original data vs the estimated averages. On average the model under predicted carry by 4 yards, which is consistent with the MAPE being 8.4 yards, with some clubs being predicted with more accuracy, such as the 9 Iron and W(Pitching Wedge) Some clubs such as the 6 Iron and 8 iron had higher variance and this may be down to the data itself and that each shot recorded may not have been a perfect strike. 
 
-![Model](Images/Model/Model%20Predictions.jpg) 
+![Model](Images/Model/Model%20Predictions.png) 
 
 Brožka, M., Gryc, T., Miřátský, P. and Zahálka, F., 2022. An assessment of the relationships between ball flight results, impact factors, and golf performance. Human Movement, 23(1), pp.1-9. concluded that “Ball flight distance depends on the quality of contact between the club and the ball (the smash factor) and the initial ball speed” Whilst in this dataset Smash Factor was not an observation, obtaining data from a launch monitor which does capture this data or captures club head speed, would be a suitable alternative to include. The Smash Factor is a calculation derived from Ball Speed / Club head Speed as mentioned by England golf. (https://englandigolf.co.uk/igolf-blog/blog-archive/smash-factor-in-golf/)
 
