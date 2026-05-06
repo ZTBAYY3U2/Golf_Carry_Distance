@@ -35,17 +35,17 @@ Comparing these averages to Amateur data above obtained from My golf Spy(https:/
 
 ![EDA](Images/EDA/Trackman%20Tour%20Averages.jpg)
 
-![EDA](Images/EDA/My%20Data%20-%20Ball%20speed%20vs%20carry%20distance%20scatterplot.pdf)
+![EDA](Images/EDA/My%20Data%20-%20Ball%20speed%20vs%20carry%20distance%20scatterplot.jpg)
 
-![EDA](Images/EDA/My%20Data%20-%20Club%20Loft%20vs%20Carry%20Distance%20Scatter.pdf)
+![EDA](Images/EDA/My%20Data%20-%20Club%20Loft%20vs%20Carry%20Distance%20Scatter.jpg)
 
 Looking back at the source data, the above 2 scatterplots show the correlation between ball speed and carry distance and the relationship between club loft and carry distance. Carry distance has a positive relationship with Ball speed showing the faster the ball is travelling, the further it should travel. The Club loft shows the lower the club loft typically the ball will carry further. Which also correlates to the below left scatter plot which shows the higher the launch angle, the less distance it will carry. The below right scatter plot shows the relationship between launch angle and Club Loft again it proves the general trend that the lower the loft on the club, the lower the launch angle and the further the ball could travel. Whilst outliers do exist in the data, they do represent a true reflection of the data. Once again, if there were more observations in the data, strike quality could be used, which could decrease the outliers. For reference, mishits account for 28% of the dataset which is why they have been included.
 
 ![EDA](Images/EDA/Mishit%20stats.jpg)
 
-![EDA](Images/EDA/My%20Data%20-%20Launch%20Angle%20vs%20carry%20distance%20scatterplot.pdf) 
+![EDA](Images/EDA/My%20Data%20-%20Launch%20Angle%20vs%20carry%20distance%20scatterplot.jpg) 
 
-![EDA](Images/EDA/My%20Data%20-%20Club%20Loft%20vs%20Launch%20Angle%20%20scatterplot.pdf) 
+![EDA](Images/EDA/My%20Data%20-%20Club%20Loft%20vs%20Launch%20Angle%20%20scatterplot.jpg) 
 
 Using the Association Analysis tool in Alteryx, and specifically using the Pearson Correlation table it generates, it was identified that the highest three correlating variables with carry distance were, Ball Speed (0.78), Hang time (0.47) and Club Loft (-0.52). 
 
